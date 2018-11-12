@@ -22,7 +22,7 @@ public class BikesController {
     }
 
     @PostMapping
-    @ResponseStatus(HttpStatus.OK)
+    @ResponseStatus(HttpStatus.CREATED)
     public void create(@RequestBody Bike bike) {
         bikeRepository.save(bike);
     }
