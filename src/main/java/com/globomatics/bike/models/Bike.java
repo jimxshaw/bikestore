@@ -27,7 +27,7 @@ public class Bike {
     private BigDecimal purchasePrice;
 
     private Date purchaseDate;
-    
+
     private boolean contact;
 
     public Long getId() {
